@@ -1,0 +1,64 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn install
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/rochx20wa/.gem/ruby/2.6.0/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  13.1.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/rochx20wa/updateprofile/rochmirabeau.github.io/package.json: Unexpected token } in JSON at position 435
+      at JSON.parse (<anonymous>)
+      at /usr/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/lib/node_modules/yarn/lib/cli.js:304:30)
+      at /usr/lib/node_modules/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "2018portfolio",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "eslint-utils": "^1.4.3",
+      "handlebars": "^4.5.3",
+      "js-yaml": "^3.13.1",
+      "lodash": "^4.17.15",
+      "lodash.template": "^4.5.0",
+      "mixin-deep": "^2.0.1",
+      "react": "^16.6.3",
+      "react-dom": "^16.6.3",
+      "react-materialize": "^2.5.1",
+      "react-scripts": "2.1.1",
+      "reactstrap": "^6.5.0",
+      "set-value": "^3.0.1",
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
